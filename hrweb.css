@@ -221,18 +221,20 @@ Extra (xl) large devices (large desktops, 1200px and up)
 =============*/
 @media only screen and (max-width: 576px) {
   .home-inner {
-    background-image: url('./img/webapp-mockup3.jpg');
+    background-image: none;
+    background-color: #31353a;
   }
   .landing {
-    height: 70vh !important;
+    height: 60vh !important;
   }
   .jumbotron {
     padding: 0;
   }
   .caption {
-    top: 20%;
+    top: 15%;
   }
   .caption h1 {
+    color: #faa916;
     font-size: 2.5em;
     font-weight: 700;
     text-shadow: 0.1rem 0.1rem 0.56em black;
