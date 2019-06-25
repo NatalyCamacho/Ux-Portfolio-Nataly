@@ -61,10 +61,10 @@ ul {
 }
 /* -----Landing Page ---- */
 .landing {
-  height: 70vh !important;
+  height: 60vh !important;
 }
 .home-inner {
-  background-image: url('./img/stuart-webapp2.jpg');
+  background-color: #31353a;
 }
 .caption {
   width: 100%;
@@ -76,6 +76,7 @@ ul {
   text-transform: uppercase;
 }
 .caption h1 {
+  color: #faa916;
   font-size: 3.8em;
   font-weight: 700;
   letter-spacing: 0.05em;
@@ -223,10 +224,6 @@ Extra (xl) large devices (large desktops, 1200px and up)
 
 =============*/
 @media only screen and (max-width: 576px) {
-  .home-inner {
-    background-image: none;
-    background-color: #31353a;
-  }
   .landing {
     height: 60vh !important;
   }
@@ -237,7 +234,6 @@ Extra (xl) large devices (large desktops, 1200px and up)
     top: 14%;
   }
   .caption h1 {
-    color: #faa916;
     font-size: 2.5em;
     font-weight: 700;
     text-shadow: 0.1rem 0.1rem 0.56em black;
