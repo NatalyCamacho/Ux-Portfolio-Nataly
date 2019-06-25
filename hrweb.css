@@ -61,10 +61,10 @@ ul {
 }
 /* -----Landing Page ---- */
 .landing {
-  height: 80vh !important;
+  height: 70vh !important;
 }
 .home-inner {
-  background-image: url('./img/webapp-mockup.jpg');
+  background-image: url('./img/webapp-mockup2.jpg');
 }
 .caption {
   width: 100%;
@@ -220,6 +220,9 @@ Extra (xl) large devices (large desktops, 1200px and up)
 
 =============*/
 @media only screen and (max-width: 576px) {
+  .home-inner {
+    background-image: url('./img/webapp-mockup3.jpg');
+  }
   .landing {
     height: 70vh !important;
   }
@@ -227,7 +230,7 @@ Extra (xl) large devices (large desktops, 1200px and up)
     padding: 0;
   }
   .caption {
-    top: 14%;
+    top: 20%;
   }
   .caption h1 {
     font-size: 2.5em;
