@@ -63,7 +63,7 @@ h3 {
 }
 /* -----Landing Page ---- */
 .landing {
-  height: 80vh !important;
+  height: 70vh !important;
 }
 .home-inner {
   background-image: url('./img/nativeapp-mockups2.jpg');
@@ -229,6 +229,9 @@ Extra (xl) large devices (large desktops, 1200px and up)
 
 =============*/
 @media only screen and (max-width: 576px) {
+  .home-inner {
+    background-image: url('./img/nativeapp-mockups3.jpg');
+  }
   .landing {
     height: 60vh !important;
   }
@@ -238,12 +241,12 @@ Extra (xl) large devices (large desktops, 1200px and up)
   }
   .caption {
     top: 14%;
+    padding: 0.1em;
   }
   .caption h1 {
     font-size: 2.5em;
     font-weight: 700;
     text-shadow: 0.1rem 0.1rem 0.56em black;
-    padding-bottom: 0.5em;
   }
   .caption h3 {
     font-size: 1.6em;
