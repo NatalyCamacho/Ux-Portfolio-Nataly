@@ -1,0 +1,287 @@
+body {
+  overflow-x: hidden;
+  font-family: 'Cabin', sans-serif, Arial, Helvetica, sans-serif;
+  color: #505962;
+  box-sizing: border-box;
+}
+.offset:before {
+  display: block;
+  content: '';
+  height: 3em;
+  margin-top: -3em;
+}
+a {
+  color: #e2e2e2;
+}
+a:hover {
+  text-decoration: none;
+  color: #ffff;
+}
+
+em {
+  font-style: normal;
+  color: #faa916;
+  font-weight: bold;
+}
+p {
+  text-transform: none;
+}
+i {
+  margin-bottom: 0.4em;
+}
+ul {
+  list-style: none;
+}
+
+/* Navigation */
+.navbar {
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 1em;
+  letter-spacing: 0.08em;
+  background: rgba(0, 0, 0, 0.6) !important;
+}
+.navbar-nav li {
+  padding-right: 0.7em;
+}
+.nav-link,
+.navbar-nav,
+.navbar-dark {
+  color: white !important;
+  padding-top: 0.8em;
+}
+.nav-link:hover,
+.nav-link.active,
+.navbar-nav:hover,
+.navbar-nav.active,
+.navbar-dark:hover,
+.navbar-dark.active {
+  color: #faa916 !important;
+  text-shadow: none;
+}
+/* -----Landing Page ---- */
+.landing {
+  height: 80vh !important;
+}
+.home-inner {
+  background-image: url('./img/stuart-webapp.jpg');
+}
+.caption {
+  width: 100%;
+  max-width: 100%;
+  position: absolute;
+  top: 15%;
+  z-index: 1;
+  color: white;
+  text-transform: uppercase;
+}
+.caption h1 {
+  font-size: 3.8em;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  text-shadow: 0.1rem 0.1rem 0.56em black;
+  padding-bottom: 0.5em;
+}
+.caption h3 {
+  font-size: 2.5em;
+  text-shadow: 0.1rem 0.1rem 0.5rem black;
+  padding-bottom: 1em;
+}
+.caption p.intro {
+  font-size: 1.6em;
+}
+.caption p {
+  padding: 0 3em;
+  text-shadow: 0px 2px 2px rgba(0, 0, 0, 0.5);
+  font-size: 1.3em;
+  padding-bottom: 1em;
+}
+.btn-lg {
+  border-width: medium;
+  border-radius: 0;
+  padding: 0.6rem 1.3rem;
+}
+.btn-arrow {
+  margin-bottom: 0;
+}
+/* About */
+
+#about .jumbotron {
+  color: #e8e8e8;
+}
+.jumbotron {
+  margin-bottom: 0;
+  padding: 2em 15em;
+  border-radius: 0;
+  background-color: rgba(0, 0, 0, 0.8);
+}
+h3.heading {
+  font-size: 1.8rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-bottom: 1em;
+}
+.heading-underline {
+  width: 5em;
+  height: 0.2em;
+  background-color: #faa916;
+  margin: 0 auto 0.1em;
+}
+
+/* Projects */
+
+#projects .jumbotron {
+  background-color: #fff;
+}
+.projects-col {
+  padding: 1em;
+  margin-bottom: 5em;
+}
+.projects-col img {
+  max-width: 100%;
+  vertical-align: middle;
+  margin-bottom: 2em;
+}
+.projects-col p {
+  padding: 0.8em 9em 0em 9em;
+}
+
+.brief h4 {
+  padding: 0.5em 5em;
+}
+.project-item {
+  padding: 1em;
+  font-size: 1.3em;
+}
+.hrweb-companies {
+  max-width: 90% !important;
+}
+
+.problem-statement {
+  padding: 0 20em;
+}
+.persona {
+  max-width: 110%;
+}
+.prototyping {
+  max-width: 80%;
+}
+.iterations {
+  max-width: 100%;
+}
+.affinity {
+  max-width: 100%;
+  max-height: 100%;
+  margin-bottom: 2em;
+}
+.hifi-proto {
+  max-width: 100%;
+}
+.mockup {
+  max-width: 25%;
+}
+.confirmation {
+  max-width: 70%;
+}
+/* ------WEB APP -------- */
+.webapp-mockup {
+  max-width: 70%;
+}
+/* Contact Section */
+footer {
+  background-color: rgba(0, 0, 0, 0.8);
+  color: #e8e8e8;
+  padding: 2rem 0 2rem;
+}
+footer img {
+  margin-top: 1em;
+  height: 15rem;
+  margin-bottom: 2em;
+}
+hr.socket {
+  width: 100%;
+  margin-top: 3em;
+}
+/*============ BOOTSTRAP BREAK POINTS:
+
+
+
+Extra small (xs) devices (portrait phones, less than 576px)
+No media query since this is the default in Bootstrap
+
+Small (sm) devices (landscape phones, 576px and up)
+@media (min-width: 576px) { ... }
+
+Medium (md) devices (tablets, 768px and up)
+@media (min-width: 768px) { ... }
+
+Large (lg) devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
+
+Extra (xl) large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }
+
+=============*/
+@media only screen and (max-width: 576px) {
+  .landing {
+    height: 70vh !important;
+  }
+  .jumbotron {
+    padding: 0;
+  }
+  .caption {
+    top: 14%;
+  }
+  .caption h1 {
+    font-size: 2.5em;
+    font-weight: 700;
+    text-shadow: 0.1rem 0.1rem 0.56em black;
+    padding-bottom: 0.5em;
+  }
+  .caption h3 {
+    font-size: 1.6em;
+    text-shadow: 0.1rem 0.1rem 0.5rem black;
+    padding-bottom: 0.5em;
+  }
+  .caption p.intro {
+    display: block;
+    padding: 1em;
+  }
+  .caption p {
+    display: none;
+    font-size: 1.5em !important;
+  }
+  .btn-lg {
+    display: none;
+  }
+  .projects-col ul {
+    margin-right: 2em;
+  }
+  .projects-col img {
+    max-width: 100%;
+    max-height: 100%;
+  }
+  .projects-col p {
+    padding: 0;
+  }
+  .about-me p {
+    padding: 0;
+  }
+  .skills {
+    display: none;
+  }
+  .problem-statement {
+    padding: 0 !important;
+  }
+  .brief h4 {
+    padding: 0;
+  }
+  .persona,
+  .prototyping,
+  .iterations,
+  .hifi-proto,
+  .mockup,
+  .confirmation {
+    max-width: 100% !important;
+  }
+}
