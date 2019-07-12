@@ -200,10 +200,7 @@ Extra (xl) large devices (large desktops, 1200px and up)
 =============*/
 @media only screen and (max-width: 576px) {
   .landing {
-    height: 100vh !important;
-  }
-  p.intro {
-    padding-bottom: 0.5em;
+    height: 105vh !important;
   }
   .caption {
     top: 14%;
