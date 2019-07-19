@@ -148,7 +148,7 @@ h3.heading {
   padding: 1em;
 }
 .projects-col {
-  margin-bottom: 5em;
+  margin-bottom: 2em;
 }
 .projects-col img {
   max-width: 60%;
@@ -159,7 +159,8 @@ h3.heading {
   margin-bottom: 2em;
 }
 .projects-col p {
-  padding: 0.8em 9em 0em 9em;
+  padding: 1em 0;
+  padding-bottom: 1em;
 }
 
 /* Contact Section */
