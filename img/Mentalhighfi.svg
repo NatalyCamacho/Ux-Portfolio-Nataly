@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1147px" height="890px" viewBox="0 0 1147 890" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53.1 (72631) - https://sketchapp.com -->
+    <title>Artboard</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M249.683916,497.30433 C387.580536,497.30433 499.367832,385.978962 499.367832,248.652164 C499.367832,177.483407 469.344378,113.298026 421.222833,67.9721013 C376.489338,25.8374001 316.116471,0 249.683916,0 C182.812754,0 122.08156,26.179698 77.2610175,68.8087851 C29.6560493,114.086156 0,177.920201 0,248.652164 C0,385.978962 111.787297,497.30433 249.683916,497.30433 Z" id="path-1"></path>
+        <linearGradient x1="8.42986214%" y1="18.848864%" x2="114.30581%" y2="109.379583%" id="linearGradient-3">
+            <stop stop-color="#FF9770" offset="0%"></stop>
+            <stop stop-color="#FFD670" offset="100%"></stop>
+        </linearGradient>
+        <path d="M249.683916,497.30433 C387.580536,497.30433 499.367832,385.978962 499.367832,248.652164 C499.367832,177.483407 469.344378,113.298026 421.222833,67.9721013 C376.489338,25.8374001 316.116471,0 249.683916,0 C182.812754,0 122.08156,26.179698 77.2610175,68.8087851 C29.6560493,114.086156 0,177.920201 0,248.652164 C0,385.978962 111.787297,497.30433 249.683916,497.30433 Z" id="path-4"></path>
+    </defs>
+    <g id="Artboard" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Mentalhighfi" transform="translate(-86.000000, -165.000000)">
+            <rect id="Rectangle" fill="#E8EFF6" fill-rule="nonzero" x="99" y="0" width="1125" height="2436"></rect>
+            <g id="Logo-/-Light-Logo" transform="translate(234.000000, 180.000000)">
+                <g id="Group">
+                    <ellipse id="Oval" fill-opacity="0.3" fill="#FF9770" fill-rule="nonzero" cx="516.587412" cy="337.252362" rx="338.651748" ry="337.252362"></ellipse>
+                    <ellipse id="Oval-Copy" fill="#FFD670" fill-rule="nonzero" opacity="0.2" cx="338.651748" cy="337.252362" rx="338.651748" ry="337.252362"></ellipse>
+                    <ellipse id="Oval-Copy-2" fill-opacity="0.3" fill="#D8F793" fill-rule="nonzero" cx="426.662937" cy="384.886875" rx="338.651748" ry="337.252362"></ellipse>
+                    <g id="Oval-+-Oval-Copy-3-Mask" transform="translate(177.935664, 89.552886)">
+                        <g id="Mask" fill="#FF9770" fill-rule="nonzero">
+                            <path d="M249.683916,497.30433 C387.580536,497.30433 499.367832,385.978962 499.367832,248.652164 C499.367832,177.483407 469.344378,113.298026 421.222833,67.9721013 C376.489338,25.8374001 316.116471,0 249.683916,0 C182.812754,0 122.08156,26.179698 77.2610175,68.8087851 C29.6560493,114.086156 0,177.920201 0,248.652164 C0,385.978962 111.787297,497.30433 249.683916,497.30433 Z" id="path-2"></path>
+                        </g>
+                        <g id="Oval-Clipped">
+                            <mask id="mask-2" fill="white">
+                                <use xlink:href="#path-1"></use>
+                            </mask>
+                            <g id="path-2"></g>
+                            <ellipse id="Oval" fill="url(#linearGradient-3)" fill-rule="nonzero" opacity="0.396763393" mask="url(#mask-2)" cx="552.21504" cy="64.8326196" rx="302.531124" ry="301.280997"></ellipse>
+                        </g>
+                        <g id="Oval-Copy-3-Clipped">
+                            <mask id="mask-5" fill="white">
+                                <use xlink:href="#path-4"></use>
+                            </mask>
+                            <g id="path-2"></g>
+                            <ellipse id="Oval-Copy-3" fill="url(#linearGradient-3)" fill-rule="nonzero" opacity="0.404017857" mask="url(#mask-5)" cx="-52.8472092" cy="441.624549" rx="302.531124" ry="301.280997"></ellipse>
+                        </g>
+                    </g>
+                    <text id="iHelpu" fill="#FFFFFF" font-family="Montserrat-Bold, Montserrat" font-size="65.0517483" font-weight="bold">
+                        <tspan x="317.402787" y="358.135641">iHelpu</tspan>
+                    </text>
+                </g>
+            </g>
+            <text id="Keep-track-of-your-mood" fill="#44566C" font-family="Montserrat-Regular, Montserrat" font-size="39" font-weight="normal">
+                <tspan x="419.544" y="1016">Keep track of your mood</tspan>
+            </text>
+        </g>
+    </g>
+</svg>
