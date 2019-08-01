@@ -61,7 +61,7 @@ i {
   height: 90vh !important;
 }
 .home-inner {
-  background-image: url('./img/programming7.jpg');
+  background-image: url('./img/background2.jpg');
 }
 .caption {
   width: 100%;
@@ -116,6 +116,7 @@ h3.heading {
   font-weight: 700;
   text-transform: uppercase;
   margin-bottom: 1em;
+  margin-top: 1.5em;
 }
 .heading-underline {
   width: 5em;
