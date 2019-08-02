@@ -20,7 +20,7 @@ a:hover {
 
 em {
   font-style: normal;
-  color: #faa916;
+  color: #f0f1b5;
   font-weight: bold;
 }
 p {
@@ -58,7 +58,7 @@ h3 {
 .navbar-nav.active,
 .navbar-dark:hover,
 .navbar-dark.active {
-  color: #faa916 !important;
+  color: #f0f1b5 !important;
   text-shadow: none;
 }
 /* -----Landing Page ---- */
@@ -78,7 +78,7 @@ h3 {
   text-transform: uppercase;
 }
 .caption h1 {
-  color: #faa916;
+  color: #f0f1b5;
   font-size: 3.8em;
   font-weight: 700;
   letter-spacing: 0.05em;
@@ -126,7 +126,7 @@ h3.heading {
 .heading-underline {
   width: 5em;
   height: 0.2em;
-  background-color: #faa916;
+  background-color: #f0f1b5;
   margin: 0 auto 0.1em;
 }
 .about-me {
