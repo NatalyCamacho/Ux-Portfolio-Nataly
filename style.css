@@ -216,16 +216,17 @@ Extra (xl) large devices (large desktops, 1200px and up)
     font-size: 2.5em;
     font-weight: 700;
     text-shadow: 0.1rem 0.1rem 0.56em black;
-    padding-bottom: 1em;
+    padding-bottom: 0.5em;
   }
   .caption h3 {
     font-size: 1.6em;
     text-shadow: 0.1rem 0.1rem 0.5rem black;
-    padding-bottom: 1em;
+    padding-bottom: 0.5em;
   }
   .caption p.intro {
     display: block;
     padding: 1em;
+    text-align: center;
   }
   .caption p {
     display: none;
