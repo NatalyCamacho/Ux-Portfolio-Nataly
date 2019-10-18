@@ -1,307 +1,434 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Nataly UX Portfolio</title>
-    <link rel="stylesheet" href="bootstrap-4.1.3-dist/css/bootstrap.min.css" />
-    <link
-      href="https://fonts.googleapis.com/css?family=Cabin:400,600,700&display=swap"
-      rel="stylesheet"
-    />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <link
       rel="stylesheet"
       href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
       integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay"
       crossorigin="anonymous"
     />
-
-    <link rel="stylesheet" href="./style.css" />
-    <link rel="stylesheet" href="./css/fixed.css" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css"
+      integrity="sha256-HAaDW5o2+LelybUhfuk0Zh2Vdk8Y2W2UeKmbaXhalfA="
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css"
+    />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Nataly UX Portfolio</title>
   </head>
 
-  <body data-spy="scroll" data-target="#navbarResponsive">
-    <!-- Start Home Section -->
-    <div id="home"></div>
-    <!-- Navigation -->
-    
-        <div class="container"></div>
-        <nav class="navbar navbar-expand-sm navbar-dark bg-dark fixed-top">
-          <div class="container">
-            <a class="navbar-brand" href="#"></a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarResponsive">
-              <ul class="navbar-nav ml-auto">
-                <li class="nav-item ml-auto">
-                  <a class="nav-link" href="#home">Home</a>
-                </li>
-                <li class="nav-item ml-auto">
-                  <a class="nav-link" href="#projects">Projects</a>
-                </li>
-                <li class="nav-item ml-auto">
-                  <a class="nav-link" href="#about">About</a>
-                </li>
-                <li class="nav-item ml-auto">
-                  <a class="nav-link" href="./indexspanish.html">Español</a>
-                </li>
-              </ul>
-            </div>
-          </div>
-        </nav>
+  <body>
+    <!-- Start Navbar Section -->
+    <nav class="navbar navbar-expand-sm navbar-dark bg-dark" id="main-nav">
+      <div class="container">
+        <a href="index.html" class="navbar-brand ">Nataly Camacho</a>
+        <button
+          class="navbar-toggler"
+          data-toggle="collapse"
+          data-target="#navbarCollapse"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+              <a href="index.html" class="nav-link">Home</a>
+            </li>
+            <li class="nav-item">
+              <a href="#projects" class="nav-link"> Projects</a>
+            </li>
+            <li class="nav-item">
+              <a href="#about" class="nav-link">About</a>
+            </li>
+            <li class="nav-item">
+              <a href="#contact" class="nav-link">Contact</a>
+            </li>
+            <li class="nav-item">
+              <a href="indexspanish.html" class="nav-link">Español</a>
+            </li>
+          </ul>
         </div>
-
-    <!-- End Navigation -->
-
-    <!-- Start Landing Page Section -->
-    <div class="landing">
-      <div class="home-wrap">
-        <div class="home-inner"></div>
       </div>
-    </div>
+    </nav>
+    <!-- End Navbar Section -->
 
-    <div class="caption text-center">
-      <h1>
-        Hey There, <br />
-        I'm <em class="textemp">Nataly Camacho</em>
-      </h1>
-      <h3>
-        UX/UI Designer
-      </h3>
-      <p class="intro">
-        I'm a multi - disciplinary designer and former entrepreneur. Focused on
-        user research and passionate about creating products centered on user
-        needs
-      </p>
-      <p>
-        I am interested in working in the UX/UI field as I want to get more
-        experience on the whole process of developing producst starting from the
-        user research. I really enjoy teamwork and developing the design process
-        from scratch. Working in the creation of a startup gave me the insights
-        of how important is to design for the user as well as great
-        communication, presentation and public speaking skills.
-      </p>
-      <a class="btn btn-outline-light btn-lg" href="#projects"
-        ><i class="fas fa-angle-down fa-2x btn-arrow"></i
-      ></a>
-    </div>
-    <!-- End Landing Page section -->
-    <!-- End Home Section -->
-
-    <!-- Start Features Section -->
-    <div id="projects" class="offset">
-      <!-- Start Jumbotron -->
-      <div class="jumbotron">
-        <div class="narrow">
-          <div class="col-12 text-center">
-            <h3 class="heading">UX Case Studies</h3>
-            <div class="heading-underline"></div>
+    <!-- Start Header Section -->
+    <section id="showcase" class="py-5">
+      <div class="primary-overlay text-white">
+        <div class="container py-md-5">
+          <div class="row">
+            <div class="col-md-6 text-left">
+              <p class=" text-muted">Nataly Camacho</p>
+              <h1 class="py-4 alternate-text animated fadeInDown">
+                Freelance UX/UI Designer
+              </h1>
+              <p class="lead alternate-text text-uppercase animated fadeInDown">
+                I Create Interactive Experiences based on human needs
+              </p>
+              <p class="lead py-4 ">
+                I'm a designer - developer and former entrepreneur. With
+                experience in human centered product design and focused on user
+                research and usability testing.
+              </p>
+              <p class="d-none d-md-block py-4">
+                I really enjoy teamwork and creating frustration fee
+                experiences. Working in the creation of a startup gave me the
+                insights of how important is to design for the user as well as
+                great communication, presentation and public speaking skills.
+              </p>
+              <p class="mb-5">
+                Currently working
+                <span class="alternate-text">Freelance</span> and at
+                <span class="alternate-text">LeanMango</span>
+              </p>
+              <a
+                href="#contact"
+                class="btn btn-secondary font-weight-bold text-uppercase animated fadeInDown"
+                >Interested? Let's chat</a
+              >
+            </div>
+            <div class="col-md-6 d-none d-md-block img-fluid sml-screen">
+              <img src="/img/projects.jpg" alt="" />
+            </div>
           </div>
-          <div class="row text-center">
-            <div class="col-md-4">
-              <div class="projects-col">
-                <img
-                  class="projects-img"
-                  src="./img/nativeapp.png"
-                  alt="Hobbies Android and IOS app"
-                />
-                <h3>Native App - Traveling Hobbies</h3>
-                <p>
-                  App for IOS and android to help active people know about new
-                  places where to practice their hobbies
+        </div>
+      </div>
+    </section>
+    <!-- End Header Section -->
+
+    <!-- Start Projects Section -->
+    <section id="projects" class="py-5-text-center">
+      <div class="container py-5">
+        <div class="row">
+          <div class="col-md-12 text-center text-alternate py-5">
+            <h2>Recent Projects</h2>
+            <p class="lead my-4">
+              I've been working in web development for 3 years. See my UX case
+              studies as well as some websites designs
+            </p>
+          </div>
+          <div class="col-md-4">
+            <div class="card text-center mb-5 border-0">
+              <div class="card-body">
+                <img src="/img/nativeapp.png" alt="" class="img-fluid pb-5" />
+                <h5 class="component-m1 mb-4 pb-3">
+                  1. Native App - Traveling Hobbies
+                </h5>
+                <hr class="d-none d-md-block component-hr" />
+                <p class="components text-left d-none d-md-block">
+                  App designed for IOS and android to help active people know
+                  about new places where to practice their hobbies when they are
+                  traveling
                 </p>
-                <a href="./nativeapp.html" class="btn btn-secondary btn-md"
+                <a href="./nativeapp.html" class="btn btn-primary btn-md"
                   >Learn More</a
                 >
               </div>
             </div>
-            <div class="col-md-4">
-              <div class="projects-col">
-                <img
-                  class="projects-img"
-                  src="./img/hrweb2.png"
-                  alt="HR productivity manager web app"
-                />
-                <h3>Web App - HR Productivity Manager</h3>
-                <p>
-                  Web App to help the HR department manage time off in the
-                  workplace to increase productivity
+          </div>
+          <div class="col-md-4">
+            <div class="card text-center mb-5 border-0">
+              <div class="card-body">
+                <img src="/img/hrweb2.png" alt="" class="img-fluid pb-5" />
+                <h5 class="component-m1">
+                  2. WebApp - HR Productivity Manager
+                </h5>
+                <hr class="d-none d-md-block component-hr" />
+                <p class="components text-left d-none d-md-block">
+                  Web App designed to help the HR department manage employees
+                  time off in the workplace to increase productivity
                 </p>
-                <a href="./hrwebapp.html" class="btn btn-secondary btn-md"
+                <a href="./hrwebapp.html" class="btn btn-primary mt-4 btn-md"
                   >Learn More</a
                 >
               </div>
             </div>
-            <div class="col-md-4">
-              <div class="projects-col">
-                <img
-                  class="projects-img"
-                  src="./img/Stuart2.png"
-                  alt="Delivery logistics for Stuart web app"
-                />
-                <h3>Web App - Stuart delivery logistics</h3>
-                <p>
+          </div>
+          <div class="col-md-4">
+            <div class="card text-center mb-5 border-0">
+              <div class="card-body">
+                <img src="/img/Stuart2.png" alt="" class="img-fluid pb-5" />
+                <h5 class="component-m1">
+                  3. WebApp - Stuart Delivery Logistics
+                </h5>
+                <hr class="d-none d-md-block component-hr" />
+                <p class="components text-left d-none d-md-block">
                   Web app designed for the company Stuart where their clients
                   can organize and oversee scheduled & on-demand deliveries to
                   increase their efficiency
                 </p>
-                <a href="./suartwebapp.html" class="btn btn-secondary btn-md"
+                <a href="./suartwebapp.html" class="btn btn-primary btn-md"
                   >Learn More</a
                 >
               </div>
             </div>
-            <div class="col-md-4">
-              <div class="projects-col">
+          </div>
+          <div class="col-md-4">
+            <div class="card text-center mb-5 border-0">
+              <div class="card-body">
                 <img
-                  class="projects-img"
-                  src="./img/Mentalhighfi.svg"
-                  alt="Medium Redesign"
+                  src="/img/Mentalhighfi.svg"
+                  alt=""
+                  class="img-fluid pb-5"
                 />
-                <h3>Mental Wellbeing - iHelpu</h3>
-                <p>
-                  Mobile app to help people keep track their mood to act on time
-                  to prevent episodes of depression
+                <h5 class="component-m1 mb-4 pb-3">
+                  4. Mobile App - Mental Wellbeing
+                </h5>
+                <hr class="d-none d-md-block component-hr" />
+                <p class="components text-left d-none d-md-block">
+                  Web app designed for the company Stuart where their clients
+                  can organize and oversee scheduled & on-demand deliveries to
+                  increase their efficiency
                 </p>
-                <a href="./ihelpu.html" class="btn btn-secondary btn-md"
+                <a href="./ihelpu.html" class="btn btn-primary btn-md"
                   >Learn More</a
                 >
               </div>
             </div>
-            <div class="col-md-4">
-              <div class="projects-col">
+          </div>
+          <div class="col-md-4">
+            <div class="card text-center mb-5 border-0">
+              <div class="card-body">
                 <img
-                  class="projects-img"
-                  src="./img/medium2.png"
-                  alt="Medium Redesign"
+                  src="/img/DSD - landing.svg"
+                  alt=""
+                  class="img-fluid pb-3"
                 />
-                <h3>Redesign - Medium 2.0</h3>
-                <p>
-                  Redesign to increase the site’s readability and the writers
-                  exposure
+                <h5 class="component-m1">
+                  5. Landing Page - DeepSea Developments
+                </h5>
+                <hr class="d-none d-md-block component-hr" />
+                <p class="components text-left d-none d-md-block">
+                  Landing page designed for DeepSea Developments where their
+                  clients can see what they offer in custom hardware solutions
+                  and request a quote
                 </p>
-                <!-- <a href="" class="btn btn-secondary btn-md">Learn More</a> -->
+                <a
+                  href="https://deepseadev.netlify.com"
+                  class="btn btn-primary btn-md"
+                  target="_blank"
+                  >Learn More</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card text-center mb-5 border-0">
+              <div class="card-body">
+                <img
+                  src="/img/Leanmango-landing.svg"
+                  alt=""
+                  class="img-fluid pb-2"
+                />
+                <h5 class="component-m1 mb-4 pb-2">
+                  6. Landing Page - LeanMango
+                </h5>
+                <hr class="d-none d-md-block component-hr" />
+                <p class="components text-left d-none d-md-block">
+                  Web app designed for the company Stuart where their clients
+                  can organize and oversee scheduled & on-demand deliveries to
+                  increase their efficiency
+                </p>
+                <a
+                  href="https://leanmangov2.netlify.com"
+                  class="btn btn-primary btn-md"
+                  target="_blank"
+                  >Learn More</a
+                >
               </div>
             </div>
           </div>
         </div>
       </div>
-    </div>
-    <!-- End Home Section -->
-    <!-- Start Course Section -->
-    <div id="about" class="offset">
-      <!-- Start Jumbotron -->
-      <div class="jumbotron">
-        <div class="narrow">
-          <div class="col-12 text-center">
-            <h3 class="heading">Learn More About Me</h3>
-            <div class="heading-underline"></div>
-          </div>
-          <div class="row text-center">
-            <div class="col-md-3">
-              <a
-                target="_blank"
-                rel="noopener noreferrer"
-                href="https://www.linkedin.com/in/natalycamachof/"
-              >
-                <div class="about-me">
-                  <i
-                    class="fab fa-linkedin-in fa-4x"
-                    data-fa-transform="shrink-3 up-5"
-                  ></i>
-                  <h3>Linkedin Profile</h3>
-                  <p>
-                    See all my previous experience and connect with me!
-                  </p>
-                </div>
-              </a>
-            </div>
-            <div class="col-md-3">
-              <a
-                target="_blank"
-                rel="noopener noreferrer"
-                href="https://github.com/NatalyCamacho"
-              >
-                <div class="about-me">
-                  <i
-                    class="fab fa-github fa-4x"
-                    data-fa-transform="shrink-3 up-5"
-                  ></i>
-                  <h3>Github Repository</h3>
-                  <p>
-                    See my previous coding projects
-                  </p>
-                </div>
-              </a>
-            </div>
-            <div class="col-md-3">
-              <a
-                target="_blank"
-                rel="noopener noreferrer"
-                href="https://medium.com/@natalycamachof"
-              >
-                <div class="about-me">
-                  <i
-                    class="fab fa-medium fa-4x"
-                    data-fa-transform="shrink-3 up-5"
-                  ></i>
-                  <h3>Medium Posts</h3>
-                  <p>
-                    Browse through my full UX design reports
-                  </p>
-                </div>
-              </a>
-            </div>
-            <div class="col-md-3">
-              <a
-                target="_blank"
-                rel="noopener noreferrer"
-                href="https://dribbble.com/Natalyc21"
-              >
-                <div class="about-me">
-                  <i class="fab fa-dribbble fa-4x"></i>
-                  <h3>Dribbble Shots</h3>
-                  <p>
-                    See all my UI artwork
-                  </p>
-                </div>
-              </a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <!-- End Course Section -->
-    <!-- Start Resources Section -->
-    <div id="resources" class="offset"></div>
-    <!-- End Home Section -->
-    <!--Start Contact Section-->
-    <div id="contact" class="offset">
-      <footer>
-        <div class="row justify-content-center">
-          <div class="col-md-5 text-center">
-            <img src="/img/nataly.png" alt="Nataly" />
-            <p>
-              Feel free to share the projects you have with me!
+    </section>
+    <!-- End Projects Section -->
+
+    <!-- Start About Section -->
+    <div id="about" class="text-center py-5 bg-dark text-white mb-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12 text-center-py-5">
+            <h2>Follow Me</h2>
+            <p class="lead my-4">
+              See the work I share on Github, Dribbble, Medium and learn more
+              about my experience
             </p>
-            <strong>Contact Me</strong>
-            <p>
-              +57 (318)3724262 <br />
-              +34 (615)666681 <br />
+          </div>
+          <div class="col-md-3 text-center py-5">
+            <a
+              target="_blank"
+              rel="noopener noreferrer"
+              href="https://www.linkedin.com/in/natalycamachof/"
+            >
+              <i
+                class="fab fa-linkedin-in fa-3x"
+                data-fa-transform="shrink-3 up-5"
+              ></i>
+              <h5 class="mt-4">Connect With Me On Linkedin</h5>
+            </a>
+          </div>
+          <div class="col-md-3 text-center py-5">
+            <a
+              target="_blank"
+              rel="noopener noreferrer"
+              href="https://github.com/NatalyCamacho"
+            >
+              <i
+                class="fab fa-github fa-3x"
+                data-fa-transform="shrink-3 up-5"
+              ></i>
+              <h5 class="mt-4">Follow Me on Github</h5>
+            </a>
+          </div>
+          <div class="col-md-3 text-center py-5">
+            <a
+              target="_blank"
+              rel="noopener noreferrer"
+              href="https://medium.com/@natalycamachof"
+            >
+              <i
+                class="fab fa-medium fa-3x"
+                data-fa-transform="shrink-3 up-5"
+              ></i>
+              <h5 class="mt-4">Read My Medium Posts</h5>
+            </a>
+          </div>
+          <div class="col-md-3 text-center py-5">
+            <a
+              target="_blank"
+              rel="noopener noreferrer"
+              href="https://dribbble.com/Natalyc21"
+            >
+              <i class="fab fa-dribbble fa-3x"></i>
+              <h5 class="mt-4">See My Dribble Shots</h5>
+            </a>
+          </div>
+          <div class="col-md-12 text-center py-5">
+            <p class=" my-4">
+              Want to share a project with me or say
+              <span class="alternate-text">Hi?</span>
+              please feel free to do so
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End About Section -->
+
+    <!-- Start Contact Section -->
+    <section id="contact" class="py-2 text-center">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12 text-center py-md-5">
+            <h2>Get In Touch</h2>
+            <p class="lead my-4">
+              I am really excited to hear about your projects and work alongside
+              your company
+            </p>
+          </div>
+          <div class="col-md-6 text-left py-md-5">
+            <h4 class="align-center py-4">
+              Hey there!
+            </h4>
+            <p class="align-center">
+              Have a project you want to work on together?. Doing the proper
+              user research and testing we can create something that fulfills
+              your clients needs as seamlessly and enjoyable as possible, this
+              will also to help increase your business revenue and customer
+              attraction
+            </p>
+            <p class="align-center">
+              I would love to discuss your projects further
+            </p>
+            <p class="align-center font-weight-bold">
+              +57 (318)3724262
+            </p>
+            <p class="align-center font-weight-bold">
               natalycamachof@gmail.com
             </p>
           </div>
-          <hr class="socket" />
-          Copyright &copy; Nataly 2019
+          <div class="col-md-5 text-center my-profile py-5">
+            <img src="/img/nataly.png" alt="" />
+          </div>
         </div>
-      </footer>
-    </div>
-    <!-- End Contact Section-->
-    <!--- Script Source Files -->
-    <script src="js/jquery-3.3.1.min.js"></script>
-    <script src="bootstrap-4.1.3-dist/js/bootstrap.min.js"></script>
-    <!-- <script src="https://use.fontawesome.com/releases/v5.5.0/js/all.js"></script> -->
-    <script src="https://kit.fontawesome.com/6dae36295a.js"></script>
-    <!--- End of Script Source Files -->
+      </div>
+    </section>
+    <!-- End Contact Section -->
+
+    <!-- Footer Section -->
+    <footer id="main-footer" class="py-2 bg-dark text-white text-center">
+      <div class="container">
+        <div class="row text-center">
+          <div class="col-md-12 ml-auto py-3">
+            <p>
+              Copyright
+              <span class="alternate-text">Nataly Camacho</span> &copy;
+              <span id="year"></span>
+            </p>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- End Footer Section -->
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.min.js"
+      integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+      integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"
+      integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.min.js"
+      integrity="sha256-Y1rRlwTzT5K5hhCBfAFWABD4cU13QGuRN6P5apfWzVs="
+      crossorigin="anonymous"
+    ></script>
+    <script>
+      //Get current year for copyright
+      $('#year').text(new Date().getFullYear());
+
+      //Init Scroll Spy
+      $('body').scrollspy({ target: '#main-nav' });
+
+      // Smooth Scrolling
+      $('#main-nav a').on('click', function(event) {
+        if (this.hash !== '') {
+          event.preventDefault();
+
+          const hash = this.hash;
+
+          $('html, body').animate(
+            {
+              scrollTop: $(hash).offset().top
+            },
+            800,
+            function() {
+              window.location.hash = hash;
+            }
+          );
+        }
+      });
+    </script>
   </body>
 </html>
