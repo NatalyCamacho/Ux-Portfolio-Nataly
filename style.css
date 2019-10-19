@@ -33,7 +33,7 @@ a:hover {
   color: #f0f1b5 !important;
 }
 a {
-  color: #e2e2e2;
+  color: #141414;
 }
 img {
   max-width: 600px;
@@ -61,5 +61,8 @@ img {
 
   .align-center {
     text-align: center;
+  }
+  .sml-project {
+    display: block !important;
   }
 }
