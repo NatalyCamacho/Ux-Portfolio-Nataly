@@ -1,268 +1,296 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Mental Wellbeing</title>
-    <link rel="stylesheet" href="bootstrap-4.1.3-dist/css/bootstrap.min.css" />
-    <link
-      href="https://fonts.googleapis.com/css?family=Cabin:400,600,700&display=swap"
-      rel="stylesheet"
-    />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <link
       rel="stylesheet"
       href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
       integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay"
       crossorigin="anonymous"
     />
-
-    <link rel="stylesheet" href="./native.css" />
-    <link rel="stylesheet" href="./css/fixed.css" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css"
+      integrity="sha256-HAaDW5o2+LelybUhfuk0Zh2Vdk8Y2W2UeKmbaXhalfA="
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css"
+    />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Native App - ihelpU</title>
   </head>
 
-  <body data-spy="scroll" data-target="#navbarResponsive">
-    <!-- Start Home Section -->
-    <div id="home"></div>
-    <!-- Navigation -->
-    
-    <div class="container"></div>
-    <nav class="navbar navbar-expand-sm navbar-dark bg-dark fixed-top">
+  <body>
+    <!-- Start Navbar Section -->
+    <nav class="navbar navbar-expand-sm navbar-dark bg-dark" id="main-nav">
       <div class="container">
-        <a class="navbar-brand" href="#"></a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+        <a href="index.html" class="navbar-brand ">Nataly Camacho</a>
+        <button
+          class="navbar-toggler"
+          data-toggle="collapse"
+          data-target="#navbarCollapse"
+        >
           <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarResponsive">
+        <div class="collapse navbar-collapse" id="navbarCollapse">
           <ul class="navbar-nav ml-auto">
             <li class="nav-item ml-auto">
-              <a class="nav-link" href="./index.html">Home</a>
+              <a href="index.html" class="nav-link">Home</a>
+            </li>
+            <li class="nav-item active ml-auto">
+              <a href="#projects" class="nav-link"> Projects</a>
             </li>
             <li class="nav-item ml-auto">
-              <a class="nav-link" href="#project">Projects</a>
+              <a href="#about" class="nav-link">About</a>
             </li>
             <li class="nav-item ml-auto">
-              <a class="nav-link" href="#about">About</a>
+              <a href="#contact" class="nav-link">Contact</a>
             </li>
             <li class="nav-item ml-auto">
-              <a class="nav-link" href="./indexspanish.html">Español</a>
+              <a href="indexspanish.html" class="nav-link">Español</a>
             </li>
           </ul>
         </div>
       </div>
     </nav>
-    </div>
-    
-    <!-- End Navigation -->
+    <!-- End Navbar Section -->
 
-    <!-- Start Landing Page Section -->
-    <div class="landing">
-      <div class="home-wrap">
-        <div class="home-inner"></div>
+    <!-- Start Header Section -->
+    <section id="showcase" class="py-5 text-center text-white bg-dark">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 py-5 text-left">
+            <h1 class="alternate-text pb-md-5 text-uppercase">
+              Mental Wellbeing
+            </h1>
+            <h4 class="mb-5 mt-5">By Nataly Camacho</h4>
+            <p class="lead py-md-5">
+              People with depression can minimize their episodes reaching out to
+              loved ones or mental health professionals
+            </p>
+          </div>
+          <div class="col-md-6 py-md-5">
+            <img class="img-fluid" src="img/ihelpu-mockup.jpg" alt="" />
+          </div>
+        </div>
       </div>
-    </div>
-
-    <div class="caption text-center">
-      <h1>
-        Mental Wellbeing
-      </h1>
-      <h3>
-        Case Study
-      </h3>
-      <p class="intro">
-        Nataly Camacho
-      </p>
-    </div>
-    <!-- End Landing Page section -->
-    <!-- End Home Section -->
+    </section>
+    <!-- End Header Section -->
 
     <!-- Start Features Section -->
-    <div id="projects" class="offset">
-      <!-- Start Jumbotron -->
-      <div class="jumbotron">
-        <div class="narrow">
-          <div class="col-12 text-center">
-            <h3 class="heading">Research</h3>
-            <div class="heading-underline"></div>
+    <section id="features" class="text-center">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12 py-4">
+            <i class="fas fa-search fa-4x py-4"></i>
+            <h2>Research</h2>
+            <h3 class=" font-weight-bold py-5">Hypothesis</h3>
+            <h5 class="my-1">
+              People with depression can minimize their episodes reaching out to
+              loved ones or mental health professionals
+            </h5>
           </div>
-          <div class="row text-center">
-            <div class="col-md-12 hypothesis">
-              <h2>Hypothesis</h2>
-              <h3>
-                People with depression can minimize their episodes reaching out
-                to loved ones or mental health professionals
-              </h3>
+          <div class="col-md-6 py-4 text-center">
+            <h3 class="pb-5">From the Interviews</h3>
+            <p>
+              7 out of 7 interviewees practice active hobbies
+            </p>
+            <p>
+              37 out of 70 persons presented signs related with depression
+            </p>
+
+            <p>
+              42.9% of the people just waited for the depressive episodes to
+              pass
+            </p>
+            <p>
+              82.9% of the people didn’t seek professional help, even while
+              being aware of their depressive episodes
+            </p>
+          </div>
+          <div class="col-md-6 py-4 text-center">
+            <h3 class="pb-5">What The Interviewees Said</h3>
+            <div class="pt-3">
+              <blockquote>
+                <strong
+                  >“I tracked my depressive episodes and it helped me realize I
+                  needed professional help”</strong
+                >
+              </blockquote>
+              <blockquote>
+                ”I tried to keep a diary with my mood changes, but I would just
+                forget it everytime”
+              </blockquote>
+              <blockquote>
+                ”When I start to feel bad I don't know what to do”
+              </blockquote>
+              <blockquote>
+                “I don't feel comfortable reaching out to a mental health
+                professional”
+              </blockquote>
             </div>
-            <div class="col-md-6">
-              <div class="projects-col">
-                <h3>
-                  37 out of 70 persons presented signs related with depression
-                </h3>
-                <br />
-                <h3>
-                  42.9% of the people just waited for the depressive episodes to
-                  pass
-                </h3>
-                <h3>
-                  82.9% of the people didn’t seek professional help, even while
-                  being aware of their depressive episodes
-                </h3>
-              </div>
-            </div>
-            <div class="col-md-6">
-              <div class="projects-col">
-                <h3>What The Interviewees Said</h3>
-                <blockquote>
-                  <strong
-                    >“I tracked my depressive episodes and it helped me realize
-                    I needed professional help”</strong
-                  >
-                </blockquote>
-                <blockquote>
-                  ”I tried to keep a diary with my mood changes, but I would
-                  just forget it everytime”
-                </blockquote>
-                <blockquote>
-                  ”When I start to feel bad I don't know what to do”
-                </blockquote>
-                <blockquote>
-                  “I don't feel comfortable reaching out to a mental health
-                  professional”
-                </blockquote>
-              </div>
-            </div>
+          </div>
+          <div class="col-md-12 py-4">
+            <h5>
+              People don’t seek professional help because they don’t realize how
+              big their problem really is
+            </h5>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End Features Section -->
+
+    <!-- Start Insights Section -->
+    <section id="insights" class="text-center bg-dark text-white">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12 py-4">
+            <i class="fas fa-list fa-4x py-4"></i>
+            <h2>Insights</h2>
+            <p class="lead py-3">
+              In order to organice the findings from the interviews an affinity
+              diagram was created
+            </p>
+          </div>
+          <div class="col-md-6">
+            <img class="img-fluid" src="./img/mental_affinity.jpg" alt="" />
+          </div>
+          <div class="col-md-6 text-left">
+            <h5 class="pb-5">The diagram was divided by:</h5>
+            <ul>
+              <li class="lead py-2">
+                What people understood about depression
+              </li>
+              <li class="pb-4">Awareness — understanding — acting on it</li>
+              <li class="lead py-2">
+                How they acted on it
+              </li>
+              <li class="pb-4">
+                Depression is a topic people prefer to deal on it’s own
+              </li>
+              <li class="lead py-2">
+                Causes
+              </li>
+              <li>
+                Interviewees mentioned common causes they felt lead to their
+                depression
+              </li>
+            </ul>
+          </div>
+          <div class="col-md-12 text-uppercase py-5">
+            <h5>
+              People don't reach out when they are feeling depressed. They tend
+              to isolate and avoid doing the activities they normally like
+            </h5>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End Insights Section -->
+
+    <!-- Start Pain Points Section -->
+    <section id="pain-points" class="text-center">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12 py-4 ">
+            <i class="fas fa-exclamation-circle fa-4x py-4"></i>
+            <h2>Pain Points</h2>
+            <p class="lead py-5">
+              After analyzing what the interviewees said these were the most
+              notorious pain points
+            </p>
+            <ul class="text-center">
+              <li class="project-item mb-4">
+                Depressed people won’t go to a mental wellbeing professional
+              </li>
+              <li class="project-item mb-4">
+                People don’t know what triggers their depression
+              </li>
+              <li class="project-item mb-4">
+                People are not comfortable expressing the state of their mental
+                wellbeing
+              </li>
+              <li class="project-item mb-5">
+                People don’t track their depression. So they can’t be prepared
+                if there is some sort of pattern
+              </li>
+              <li class="project-item mb-4 lead">
+                <strong
+                  >People don’t have enough information on their depression to
+                  take actions to get better</strong
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End Pain Points Section -->
+
+    <!-- Start Problem Statement Section -->
+    <section id="problem-statement" class="text-center bg-dark text-white">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12 py-4">
+            <i class="far fa-lightbulb fa-4x py-4"></i>
+            <h2 class="pb-5">Problem Statement</h2>
+            <h3 class="py-5">
+              Depressed people need a way to track their depressive episodes so
+              they can understand why they happen and act to get better
+            </h3>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End Pain Points Section -->
+
+    <!-- Start User Persona Section -->
+    <section id="problem-statement" class="text-center">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12 py-4">
+            <i class="fas fa-user fa-4x py-4"></i>
+            <h2 class="pb-5">User Persona</h2>
+            <p class="lead">Meet the user resulting from the interviews</p>
             <div class="col-md-12">
-              <h3>
-                People don’t seek professional help because they don’t realize
-                how big their problem really is
-              </h3>
+              <img class="img-fluid" src="./img/mental_persona.jpg" alt="" />
             </div>
           </div>
         </div>
       </div>
-      <div class="jumbotron">
-        <div class="narrow">
-          <div class="col-12 text-center">
-            <h3 class="heading">Insights</h3>
-            <div class="heading-underline"></div>
-          </div>
-          <div class="row text-center">
-            <div class="col-md-6">
-              <img class="affinity" src="./img/mental_affinity.jpg" alt="" />
-            </div>
-            <div class="col-md-6">
-              <div class="projects-col">
-                <ul>
-                  <li class="project-item">
-                    What people understood about depression
-                  </li>
-                  <li>Awareness — understanding — acting on it</li>
-                  <li class="project-item">
-                    How they acted on it
-                  </li>
-                  <li>
-                    Depression is a topic people prefer to deal on it’s own
-                  </li>
-                  <li class="project-item">
-                    Causes
-                  </li>
-                  <li>
-                    Interviewees mentioned common causes they felt lead to their
-                    depression
-                  </li>
-                </ul>
-                <br />
-                <h4>
-                  People don't reach out when they are feeling depressed. They
-                  tend to isolate and avoid doing the activities they normally
-                  like
-                </h4>
-                <br />
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="jumbotron">
-        <div class="narrow">
-          <div class="col-12 text-center">
-            <h3 class="heading">Pain Points</h3>
-            <div class="heading-underline"></div>
-          </div>
-          <div class="row text-center">
-            <div class="col-md-12">
-              <div class="projects-col">
-                <ul>
-                  <li class="project-item">
-                    Depressed people won’t go to a mental wellbeing professional
-                  </li>
-                  <li class="project-item">
-                    People don’t know what triggers their depression
-                  </li>
-                  <li class="project-item">
-                    People are not comfortable expressing the state of their
-                    mental wellbeing
-                  </li>
-                  <li class="project-item">
-                    People don’t track their depression. So they can’t be
-                    prepared if there is some sort of pattern
-                  </li>
-                  <li class="project-item">
-                    <strong
-                      >People don’t have enough information on their depression
-                      to take actions to get better</strong
-                    >
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="jumbotron">
-        <div class="narrow">
-          <div class="col-12 text-center">
-            <h3 class="heading">Problem Statement</h3>
-            <div class="heading-underline"></div>
-          </div>
-          <div class="row text-center">
-            <div class="col-md-12">
-              <div class="projects-col problem-statement">
-                <h3>
-                  Depressed people need a way to track their depressive episodes
-                  so they can understand why they happen and act to get better
-                </h3>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="jumbotron">
-        <div class="narrow">
-          <div class="col-12 text-center">
-            <h3 class="heading">User Persona</h3>
-            <div class="heading-underline"></div>
-          </div>
-          <div class="row text-center">
-            <div class="col-md-12">
-              <img class="persona" src="./img/mental_persona.jpg" alt="" />
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="jumbotron">
-        <div class="narrow">
-          <div class="col-12 text-center">
-            <h3 class="heading">Prototyping</h3>
-            <div class="heading-underline"></div>
-          </div>
-          <div class="row text-center">
+    </section>
+    <!-- End User Persona Section -->
+
+    <!-- Start Prototyping Section -->
+    <section id="problem-statement" class="text-center bg-dark text-white">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12 py-4">
+            <i class="far fa-paper-plane fa-4x py-4"></i>
+            <h2 class="pb-5">Prototyping</h2>
+            <p class="lead pb-5">
+              Paper Prototypes, Crazy 8's and non stop user testing helped get
+              the most intuitive interaction
+            </p>
             <div class="col-md-12">
               <img
-                class="prototyping"
+                class="img-fluid"
                 src="./img/mental_prototyping.svg"
                 alt=""
               />
-              <p>
+              <p class="mb-5">
                 As I was sketching I decided that since depression is such an
                 emotional, personal and very delicate topic, it would be good
                 for the application to have a human touch. For this I added an
@@ -283,97 +311,139 @@
           </div>
         </div>
       </div>
-      <div class="jumbotron">
-        <div class="narrow">
-          <div class="col-12 text-center">
-            <h3 class="heading">Iterations</h3>
-            <div class="heading-underline"></div>
-          </div>
-          <div class="row text-center">
-            <div class="col-md-12">
-              <img
-                class="prototyping"
-                src="./img/mentaliterations.svg"
-                alt=""
-              />
-            </div>
-          </div>
-        </div>
-      </div>
+    </section>
+    <!-- End Prototyping Section -->
 
-      <div class="jumbotron">
-        <div class="narrow">
-          <div class="col-12 text-center">
-            <h3 class="heading">High Fidelity Prototype</h3>
-            <div class="heading-underline"></div>
-          </div>
-          <div class="row text-center">
-            <div class="col-md-12">
-              <img class="hifi-proto" src="./img/mental_high.png" alt="" />
+    <!-- Start Iterations Section -->
+    <section id="problem-statement" class="text-center">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12 py-4">
+            <i class="far fa-copy fa-4x py-4"></i>
+            <h2 class="pb-5">Iterations</h2>
+
+            <div class="col-md-12 pb-5">
+              <img class="img-fluid" src="./img/mentaliterations.svg" alt="" />
             </div>
           </div>
         </div>
       </div>
-      <div class="jumbotron">
-        <div class="narrow">
-          <div class="col-12 text-center">
-            <h3 class="heading">See The Project</h3>
-            <div class="heading-underline"></div>
+    </section>
+    <!-- End Iterations Section -->
+
+    <!-- Start High Fidelity Section -->
+    <section id="high-fi" class="text-center bg-dark text-white py-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12 py-4">
+            <i class="far fa-check-circle fa-4x py-4"></i>
+            <h2 class="pb-5">High Fidelity Prototypes</h2>
           </div>
-          <div class="row text-center">
-            <div class="row text-center">
-              <div class="col-md-12">
-                <h4>
-                  In order to understand how the app works you should put
-                  yourself in Vanessas' place. For this you will not be feeling
-                  very good, the reason is work stress because you didn't get
-                  the raise you were expecting after all your hard work. To feel
-                  better you have tried doing some exercise and going for a run
-                  helped a bit. Once you've added your mood you would like to
-                  check your weekly average.
-                </h4>
-              </div>
-            </div>
-            <div class="col-md-12">
+          <div class="col-md-12">
+            <img class="img-fluid" src="./img/mental_high.png" alt="" />
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End High Fidelity Section -->
+
+    <!-- Start Section See Project -->
+    <section id="high-fi" class="text-center py-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12 py-4 text-center">
+            <i class="far fa-play-circle fa-4x py-4"></i>
+            <h2 class="pb-5">See The Project</h2>
+            <p class="lead pb-5">
+              In order to understand how the app works you should put yourself
+              in Vanessas' place. For this you will not be feeling very good,
+              the reason is work stress because you didn't get the raise you
+              were expecting after all your hard work. To feel better you have
+              tried doing some exercise and going for a run helped a bit. Once
+              you've added your mood you would like to check your weekly
+              average.
+            </p>
+            <div class="text-center d-flex justify-content-center">
               <iframe
+                class="d-none d-md-block"
                 width="442"
                 height="935"
                 src="//invis.io/JCT7BFPAQF6"
                 frameborder="0"
                 allowfullscreen
               ></iframe>
+              <a
+                class="d-none sml-project btn btn-primary btn-lg"
+                href="https://projects.invisionapp.com/share/JCT7BFPAQF6"
+                >Click Here To See The Project!</a
+              >
             </div>
           </div>
         </div>
       </div>
-    </div>
-    <!-- End Home Section -->
-    <!-- Start Resources Section -->
-    <div id="resources" class="offset"></div>
-    <!-- End Home Section -->
-    <!--Start Contact Section-->
-    <div id="contact" class="offset">
-      <footer>
-        <div class="row justify-content-center">
-          <div class="col-md-5 text-center">
-            <strong>Contact Me</strong>
+    </section>
+    <!-- End Section See Project -->
+
+    <!-- Footer Section -->
+    <footer id="main-footer" class="py-2 bg-dark text-white text-center">
+      <div class="container">
+        <div class="row text-center">
+          <div class="col-md-12 ml-auto py-3">
             <p>
-              +57 (318)3724262 <br />
-              +34 (615)666681 <br />
-              natalycamachof@gmail.com
+              Copyright
+              <span class="alternate-text">Nataly Camacho</span> &copy;
+              <span id="year"></span>
             </p>
           </div>
-          <hr class="socket" />
-          Copyright &copy; Nataly 2019
         </div>
-      </footer>
-    </div>
-    <!-- End Contact Section-->
-    <!--- Script Source Files -->
-    <script src="js/jquery-3.3.1.min.js"></script>
-    <script src="bootstrap-4.1.3-dist/js/bootstrap.min.js"></script>
-    <!-- <script src="https://use.fontawesome.com/releases/v5.5.0/js/all.js"></script> -->
-    <script src="https://kit.fontawesome.com/6dae36295a.js"></script>
-    <!--- End of Script Source Files -->
+      </div>
+    </footer>
+    <!-- End Footer Section -->
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.min.js"
+      integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+      integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"
+      integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.min.js"
+      integrity="sha256-Y1rRlwTzT5K5hhCBfAFWABD4cU13QGuRN6P5apfWzVs="
+      crossorigin="anonymous"
+    ></script>
+    <script>
+      //Get current year for copyright
+      $('#year').text(new Date().getFullYear());
+
+      //Init Scroll Spy
+      $('body').scrollspy({ target: '#main-nav' });
+
+      // Smooth Scrolling
+      $('#main-nav a').on('click', function(event) {
+        if (this.hash !== '') {
+          event.preventDefault();
+
+          const hash = this.hash;
+
+          $('html, body').animate(
+            {
+              scrollTop: $(hash).offset().top
+            },
+            800,
+            function() {
+              window.location.hash = hash;
+            }
+          );
+        }
+      });
+    </script>
   </body>
 </html>
